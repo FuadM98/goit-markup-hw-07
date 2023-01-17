@@ -61,36 +61,38 @@
 
       <div class="mobile-menu" data-menu>
         <button class="mobile-modal-close-btn" data-menu-close>
-          <svg class="mobile-modal-close-icon" width="24" height="24">
+          <svg class="mobile-modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
         </button>
         <ul class="mobile-list-nav">
           <li>
-            <a href="">Studio</a>
+            <a class="mobile-nav-link" href="">Studio</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a class="mobile-nav-link" href="">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a class="active mobile-nav-link" href="">Contacts</a>
           </li>
         </ul>
 
-        <ul>
-          <li>
-            <a href="tel:+110001111111" class="">+11 (000) 111-11-11</a>
+        <ul class="mobile-auth-list">
+          <li class="mobile-auth-list-element">
+            <a href="tel:+110001111111" class="active mobile-auth-link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="auth-link"
+          <li class="mobile-auth-list-element">
+            <a href="mailto:info@devstudio.com" class="email-auth-link"
               >info@devstudio.com</a
             >
           </li>
         </ul>
-        <ul>
-          <li>
-            <a href="#">
-              <svg class="soc-media-icon" width="40" height="40">
+        <ul class="mobile-soc-media-list">
+          <li class="mobile-soc-media-item">
+            <a class="mobile-soc-media-link" href="#">
+              <svg class="mobile-soc-media-icon" width="24" height="24">
                 <use
                   href="./images/icons.svg#icon-instagram"
                   width="24"
@@ -99,36 +101,24 @@
               </svg>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="soc-media-icon" width="40" height="40">
-                <use
-                  href="./images/icons.svg#icon-twitter"
-                  width="24"
-                  height="24"
-                ></use>
+          <li class="mobile-soc-media-item">
+            <a class="mobile-soc-media-link" href="#">
+              <svg class="mobile-soc-media-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="soc-media-icon" width="40" height="40">
-                <use
-                  href="./images/icons.svg#icon-facebook"
-                  width="24"
-                  height="24"
-                ></use>
+          <li class="mobile-soc-media-item">
+            <a class="mobile-soc-media-link" href="#">
+              <svg class="mobile-soc-media-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="soc-media-icon" width="40" height="40">
-                <use
-                  href="./images/icons.svg#icon-linkedin"
-                  width="24"
-                  height="24"
-                ></use>
+          <li class="mobile-soc-media-item">
+            <a class="mobile-soc-media-link" href="#">
+              <svg class="mobile-soc-media-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
           </li>
@@ -150,7 +140,7 @@
           <ul class="feature-list">
             <li class="feature-item">
               <div class="icon-cont">
-                <svg class="icon">
+                <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -163,7 +153,7 @@
 
             <li class="feature-item">
               <div class="icon-cont">
-                <svg class="icon">
+                <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -175,7 +165,7 @@
             </li>
             <li class="feature-item">
               <div class="icon-cont">
-                <svg class="icon">
+                <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -187,7 +177,7 @@
             </li>
             <li class="feature-item technologies">
               <div class="icon-cont">
-                <svg class="icon">
+                <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -528,7 +518,7 @@
       </div>
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form class="modal-form">
           <p class="modal-text">
@@ -618,10 +608,10 @@
           </svg>
         </button>
       </div>
-    </div> -->
+    </div>
 
     <script src="./js/mobile-menu.js"></script>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
