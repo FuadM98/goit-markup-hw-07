@@ -319,6 +319,9 @@ p {
   z-index: 1000;
   background-color: #fff;
 
+  display: flex;
+  flex-direction: column;
+
   padding-top: 80px;
   padding-left: 40px;
   padding-bottom: 40px;
@@ -376,6 +379,10 @@ p {
   fill: currentColor;
 }
 
+.contacts-and-media{
+  margin-top: auto;
+}
+
 .mobile-auth-list{
   display: block;
   width: 337px;
@@ -410,8 +417,6 @@ p {
 .mobile-soc-media-list{
   display: flex;
   column-gap: 56px;
-  width: 328px;
-  height: 56px;
 
 }
 
